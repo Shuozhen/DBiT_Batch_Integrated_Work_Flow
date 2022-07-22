@@ -26,7 +26,7 @@ fi
 # convert gene IDs to names
 sh /gpfs/ysm/project/fan/sb2723/00.sh_batch/4-ConvertToNames.sh $SAMPLEID $INDIR
 
-# Flip and Align using position info
+# Flip and Align using position info (optional)
 sh /gpfs/ysm/project/fan/sb2723/00.sh_batch/5-FlipAlign.sh $SAMPLEID $INDIR/03.stpipeline/
 # initial SVG for alignment
 sh /gpfs/ysm/project/fan/sb2723/00.sh_batch/6-SVG.sh $SAMPLEID $INDIR/03.stpipeline/
