@@ -15,5 +15,6 @@ INDIR=$2
 
 # position.txt is the output of Ai.
 perl /gpfs/ysm/project/fan/sb2723/00.bin/batch/5-svgto.pl $INDIR $SampleID
+# flipped is optional, if skip this step, be careful about the file names
 perl /gpfs/ysm/project/fan/sb2723/00.bin/batch/5-select_under_tissue.pl $INDIR/$SampleID/$SampleID\_svg-pos.txt $INDIR/$SampleID/$SampleID\_stdata.updated.flipped.tsv > $INDIR/$SampleID/$SampleID\_stdata.updated.flipped.aligned.tsv
 perl /gpfs/ysm/project/fan/sb2723/00.bin/batch/6-qa.pl $INDIR/$SampleID/$SampleID\_stdata.updated.flipped.aligned.tsv > $INDIR/$SampleID/$SampleID\_aligned.svg
