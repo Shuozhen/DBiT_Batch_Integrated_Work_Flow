@@ -1,0 +1,135 @@
+[bam_sort_core] merging from 16 files and 16 in-memory blocks...
+ST Pipeline, parameters loaded
+ST Pipeline, logger created
+ST Pipeline, sanity check passed. Starting the run.
+input_reads_forward: 71642606
+input_reads_reverse: 71642606
+reads_after_trimming_forward: 69600580
+reads_after_trimming_reverse: 69600580
+reads_after_rRNA_trimming: 0
+reads_after_mapping: 0
+reads_after_annotation: 12209655
+reads_after_demultiplexing: 43595744
+reads_after_duplicates_removal: 4776529
+genes_found: 23604
+duplicates_found: 7433126
+pipeline_version: 1.8.1
+mapper_tool: b'2.7.9a'
+annotation_tool: htseq-count Not available
+demultiplex_tool: Taggd Not available
+input_parameters: ('LogName', 'STPipeline')('adaptor_missmatches', 0)('allowed_kmer', 6)('allowed_missed', 2)('barcode_start', 0)('clean', False)('compute_saturation', False)('contaminant_index', '/gpfs/ysm/project/fan/sb2723/00.database/hg38/STARindex_nc')('disable_annotation', False)('disable_barcode', False)('disable_clipping', True)('disable_mapping', False)('disable_multimap', False)('disable_trimming', False)('disable_umi', False)('expName', 'GBM220415')('fastq_fw', '/gpfs/ysm/project/fan/sb2723/07.DBiT_GBM/02.effective/GBM220415/GBM220415.R1.fq.gz')('fastq_rv', '/gpfs/ysm/project/fan/sb2723/07.DBiT_GBM/02.effective/GBM220415/GBM220415.R2.fq.gz')('filter_AT_content', 90)('filter_GC_content', 90)('htseq_mode', 'intersection-nonempty')('htseq_no_ambiguous', True)('ids', '/gpfs/ysm/project/fan/sb2723/00.database/barcodes-AB.xls')('include_non_annotated', False)('inverse_trimming_rv', 0)('keep_discarded_files', False)('logfile', '/gpfs/ysm/project/fan/sb2723/07.DBiT_GBM/03.stpipeline/GBM220415/GBM220415_log.txt')('logger', None)('max_intron_size', 1)('min_intron_size', 1)('min_length_trimming', 30)('min_quality_trimming', 20)('output_folder', '/gpfs/ysm/project/fan/sb2723/07.DBiT_GBM/03.stpipeline/GBM220415')('overhang', 0)('qual64', False)('ref_annotation', '/gpfs/ysm/project/fan/sb2723/00.database/hg38/gencode.v39.annotation.gtf')('ref_map', '/gpfs/ysm/project/fan/sb2723/00.database/hg38/STARindex')('remove_polyA_distance', 10)('remove_polyC_distance', 10)('remove_polyG_distance', 10)('remove_polyN_distance', 10)('remove_polyT_distance', 10)('saturation_points', None)('star_genome_loading', 'NoSharedMemory')('star_sort_mem_limit', 0)('strandness', 'yes')('taggd_metric', 'Subglobal')('taggd_multiple_hits_keep_one', False)('taggd_trim_sequences', None)('temp_folder', '/gpfs/ysm/project/fan/sb2723/07.DBiT_GBM/03.stpipeline/GBM220415/tmp')('threads', 16)('transcriptome', False)('trimming_rv', 0)('two_pass_mode', True)('umi_allowed_mismatches', 1)('umi_cluster_algorithm', 'AdjacentBi')('umi_counting_offset', 250)('umi_end_position', 26)('umi_filter', False)('umi_filter_template', 'WSNNWSNNV')('umi_quality_bases', 6)('umi_start_position', 16)('verbose', True)
+max_genes_feature: 3911
+min_genes_feature: 1
+max_reads_feature: 9123.0
+min_reads_feature: 1.0
+avergage_gene_feature: 1178.2117930204572
+average_reads_feature: 1915.9763337344564
+ST Pipeline, run completed!
+Warning, gene name ENSG00000273516.1 was already matched so the original Ensembl ID ENSG00000273516.1 will be kept
+Warning, gene name ENSG00000283442.1 was already matched so the original Ensembl ID ENSG00000283442.1 will be kept
+Warning, gene name ENSG00000202078.1 was already matched so the original Ensembl ID ENSG00000202078.1 will be kept
+Warning, gene name ENSG00000284770.2 was already matched so the original Ensembl ID ENSG00000284770.2 will be kept
+Warning, gene name ENSG00000202382.1 was already matched so the original Ensembl ID ENSG00000202382.1 will be kept
+Warning, gene name ENSG00000200241.1 was already matched so the original Ensembl ID ENSG00000200241.1 will be kept
+Warning, gene name ENSG00000274514.1 was already matched so the original Ensembl ID ENSG00000274514.1 will be kept
+Warning, gene name ENSG00000199591.1 was already matched so the original Ensembl ID ENSG00000199591.1 will be kept
+Warning, gene name ENSG00000202071.1 was already matched so the original Ensembl ID ENSG00000202071.1 will be kept
+Warning, gene name ENSG00000252965.1 was already matched so the original Ensembl ID ENSG00000252965.1 will be kept
+Warning, gene name ENSG00000277250.1 was already matched so the original Ensembl ID ENSG00000277250.1 will be kept
+Warning, gene name ENSG00000207368.1 was already matched so the original Ensembl ID ENSG00000207368.1 will be kept
+Warning, gene name ENSG00000207195.1 was already matched so the original Ensembl ID ENSG00000207195.1 will be kept
+Warning, gene name ENSG00000238713.1 was already matched so the original Ensembl ID ENSG00000238713.1 will be kept
+Warning, gene name ENSG00000201314.1 was already matched so the original Ensembl ID ENSG00000201314.1 will be kept
+Warning, gene name ENSG00000015479.20 was already matched so the original Ensembl ID ENSG00000015479.20 will be kept
+Warning, gene name ENSG00000274799.1 was already matched so the original Ensembl ID ENSG00000274799.1 will be kept
+Warning, gene name ENSG00000201988.2 was already matched so the original Ensembl ID ENSG00000201988.2 will be kept
+Warning, gene name ENSG00000272655.2 was already matched so the original Ensembl ID ENSG00000272655.2 will be kept
+Warning, gene name ENSG00000276178.1 was already matched so the original Ensembl ID ENSG00000276178.1 will be kept
+Warning, gene name ENSG00000201282.1 was already matched so the original Ensembl ID ENSG00000201282.1 will be kept
+Warning, gene name ENSG00000273927.1 was already matched so the original Ensembl ID ENSG00000273927.1 will be kept
+Warning, gene name ENSG00000274984.1 was already matched so the original Ensembl ID ENSG00000274984.1 will be kept
+Warning, gene name ENSG00000199913.1 was already matched so the original Ensembl ID ENSG00000199913.1 will be kept
+Warning, gene name ENSG00000267828.1 was already matched so the original Ensembl ID ENSG00000267828.1 will be kept
+Warning, gene name ENSG00000202021.1 was already matched so the original Ensembl ID ENSG00000202021.1 will be kept
+Warning, gene name ENSG00000199870.1 was already matched so the original Ensembl ID ENSG00000199870.1 will be kept
+Warning, gene name ENSG00000275930.1 was already matched so the original Ensembl ID ENSG00000275930.1 will be kept
+Warning, gene name ENSG00000200874.1 was already matched so the original Ensembl ID ENSG00000200874.1 will be kept
+Warning, gene name ENSG00000238560.1 was already matched so the original Ensembl ID ENSG00000238560.1 will be kept
+Warning, gene name ENSG00000201885.1 was already matched so the original Ensembl ID ENSG00000201885.1 will be kept
+Warning, gene name ENSG00000201959.1 was already matched so the original Ensembl ID ENSG00000201959.1 will be kept
+Warning, gene name ENSG00000200397.1 was already matched so the original Ensembl ID ENSG00000200397.1 will be kept
+Warning, gene name ENSG00000200552.1 was already matched so the original Ensembl ID ENSG00000200552.1 will be kept
+Warning, gene name ENSG00000285437.2 was already matched so the original Ensembl ID ENSG00000285437.2 will be kept
+Warning, gene name ENSG00000207450.1 was already matched so the original Ensembl ID ENSG00000207450.1 will be kept
+Warning, gene name ENSG00000202310.1 was already matched so the original Ensembl ID ENSG00000202310.1 will be kept
+Warning, gene name ENSG00000200834.1 was already matched so the original Ensembl ID ENSG00000200834.1 will be kept
+Warning, gene name ENSG00000203286.5 was already matched so the original Ensembl ID ENSG00000203286.5 will be kept
+Warning, gene name ENSG00000199200.2 was already matched so the original Ensembl ID ENSG00000199200.2 will be kept
+Warning, gene name ENSG00000242338.6 was already matched so the original Ensembl ID ENSG00000242338.6 will be kept
+Warning, gene name ENSG00000200737.1 was already matched so the original Ensembl ID ENSG00000200737.1 will be kept
+Warning, gene name ENSG00000274589.1 was already matched so the original Ensembl ID ENSG00000274589.1 will be kept
+Warning, gene name ENSG00000200090.1 was already matched so the original Ensembl ID ENSG00000200090.1 will be kept
+Warning, gene name ENSG00000200855.1 was already matched so the original Ensembl ID ENSG00000200855.1 will be kept
+Warning, gene name ENSG00000201228.1 was already matched so the original Ensembl ID ENSG00000201228.1 will be kept
+Warning, gene name ENSG00000222601.1 was already matched so the original Ensembl ID ENSG00000222601.1 will be kept
+Warning, gene name ENSG00000207189.1 was already matched so the original Ensembl ID ENSG00000207189.1 will be kept
+Warning, gene name ENSG00000278732.1 was already matched so the original Ensembl ID ENSG00000278732.1 will be kept
+Warning, gene name ENSG00000277233.1 was already matched so the original Ensembl ID ENSG00000277233.1 will be kept
+Warning, gene name ENSG00000199461.1 was already matched so the original Ensembl ID ENSG00000199461.1 will be kept
+Warning, gene name ENSG00000212335.1 was already matched so the original Ensembl ID ENSG00000212335.1 will be kept
+Warning, gene name ENSG00000277634.1 was already matched so the original Ensembl ID ENSG00000277634.1 will be kept
+Warning, gene name ENSG00000278818.1 was already matched so the original Ensembl ID ENSG00000278818.1 will be kept
+Warning, gene name ENSG00000252198.1 was already matched so the original Ensembl ID ENSG00000252198.1 will be kept
+Warning, gene name ENSG00000206768.1 was already matched so the original Ensembl ID ENSG00000206768.1 will be kept
+Warning, gene name ENSG00000206751.1 was already matched so the original Ensembl ID ENSG00000206751.1 will be kept
+Warning, gene name ENSG00000207342.1 was already matched so the original Ensembl ID ENSG00000207342.1 will be kept
+Warning, gene name ENSG00000274471.2 was already matched so the original Ensembl ID ENSG00000274471.2 will be kept
+Warning, gene name ENSG00000201084.1 was already matched so the original Ensembl ID ENSG00000201084.1 will be kept
+Warning, gene name ENSG00000261064.1 was already matched so the original Ensembl ID ENSG00000261064.1 will be kept
+Warning, gene name ENSG00000206706.1 was already matched so the original Ensembl ID ENSG00000206706.1 will be kept
+Warning, gene name ENSG00000207525.1 was already matched so the original Ensembl ID ENSG00000207525.1 will be kept
+Warning, gene name ENSG00000278794.1 was already matched so the original Ensembl ID ENSG00000278794.1 will be kept
+Warning, gene name ENSG00000251812.1 was already matched so the original Ensembl ID ENSG00000251812.1 will be kept
+Warning, gene name ENSG00000276532.1 was already matched so the original Ensembl ID ENSG00000276532.1 will be kept
+Warning, gene name ENSG00000238516.1 was already matched so the original Ensembl ID ENSG00000238516.1 will be kept
+Warning, gene name ENSG00000274487.3 was already matched so the original Ensembl ID ENSG00000274487.3 will be kept
+Warning, gene name ENSG00000273709.1 was already matched so the original Ensembl ID ENSG00000273709.1 will be kept
+Warning, gene name ENSG00000274432.1 was already matched so the original Ensembl ID ENSG00000274432.1 will be kept
+Warning, gene name ENSG00000278048.1 was already matched so the original Ensembl ID ENSG00000278048.1 will be kept
+Warning, gene name ENSG00000276596.1 was already matched so the original Ensembl ID ENSG00000276596.1 will be kept
+Warning, gene name ENSG00000277903.1 was already matched so the original Ensembl ID ENSG00000277903.1 will be kept
+Warning, gene name ENSG00000274862.1 was already matched so the original Ensembl ID ENSG00000274862.1 will be kept
+Warning, gene name ENSG00000274062.1 was already matched so the original Ensembl ID ENSG00000274062.1 will be kept
+Warning, gene name ENSG00000274452.1 was already matched so the original Ensembl ID ENSG00000274452.1 will be kept
+Warning, gene name ENSG00000275219.1 was already matched so the original Ensembl ID ENSG00000275219.1 will be kept
+Warning, gene name ENSG00000278591.1 was already matched so the original Ensembl ID ENSG00000278591.1 will be kept
+Warning, gene name ENSG00000274883.1 was already matched so the original Ensembl ID ENSG00000274883.1 will be kept
+Warning, gene name ENSG00000275680.1 was already matched so the original Ensembl ID ENSG00000275680.1 will be kept
+Warning, gene name ENSG00000199366.1 was already matched so the original Ensembl ID ENSG00000199366.1 will be kept
+Warning, gene name ENSG00000201501.1 was already matched so the original Ensembl ID ENSG00000201501.1 will be kept
+Warning, gene name ENSG00000277950.1 was already matched so the original Ensembl ID ENSG00000277950.1 will be kept
+Warning, gene name ENSG00000283438.1 was already matched so the original Ensembl ID ENSG00000283438.1 will be kept
+Warning, gene name ENSG00000202019.1 was already matched so the original Ensembl ID ENSG00000202019.1 will be kept
+Warning, gene name ENSG00000273979.1 was already matched so the original Ensembl ID ENSG00000273979.1 will be kept
+Warning, gene name ENSG00000269226.7 was already matched so the original Ensembl ID ENSG00000269226.7 will be kept
+Warning, gene name ENSG00000275070.1 was already matched so the original Ensembl ID ENSG00000275070.1 will be kept
+Warning, gene name ENSG00000202279.1 was already matched so the original Ensembl ID ENSG00000202279.1 will be kept
+Warning, gene name ENSG00000182378.15_PAR_Y was already matched so the original Ensembl ID ENSG00000182378.15_PAR_Y will be kept
+Warning, gene name ENSG00000178605.13_PAR_Y was already matched so the original Ensembl ID ENSG00000178605.13_PAR_Y will be kept
+Warning, gene name ENSG00000167393.18_PAR_Y was already matched so the original Ensembl ID ENSG00000167393.18_PAR_Y will be kept
+Warning, gene name ENSG00000237531.6_PAR_Y was already matched so the original Ensembl ID ENSG00000237531.6_PAR_Y will be kept
+Warning, gene name ENSG00000198223.17_PAR_Y was already matched so the original Ensembl ID ENSG00000198223.17_PAR_Y will be kept
+Warning, gene name ENSG00000185291.12_PAR_Y was already matched so the original Ensembl ID ENSG00000185291.12_PAR_Y will be kept
+Warning, gene name ENSG00000169100.14_PAR_Y was already matched so the original Ensembl ID ENSG00000169100.14_PAR_Y will be kept
+Warning, gene name ENSG00000236871.7_PAR_Y was already matched so the original Ensembl ID ENSG00000236871.7_PAR_Y will be kept
+Warning, gene name ENSG00000236017.8_PAR_Y was already matched so the original Ensembl ID ENSG00000236017.8_PAR_Y will be kept
+Warning, gene name ENSG00000169093.16_PAR_Y was already matched so the original Ensembl ID ENSG00000169093.16_PAR_Y will be kept
+Warning, gene name ENSG00000182162.11_PAR_Y was already matched so the original Ensembl ID ENSG00000182162.11_PAR_Y will be kept
+Warning, gene name ENSG00000197976.12_PAR_Y was already matched so the original Ensembl ID ENSG00000197976.12_PAR_Y will be kept
+Warning, gene name ENSG00000169084.15_PAR_Y was already matched so the original Ensembl ID ENSG00000169084.15_PAR_Y will be kept
+Warning, gene name ENSG00000214717.12_PAR_Y was already matched so the original Ensembl ID ENSG00000214717.12_PAR_Y will be kept
+Warning, gene name ENSG00000223773.8_PAR_Y was already matched so the original Ensembl ID ENSG00000223773.8_PAR_Y will be kept
+Warning, gene name ENSG00000002586.20_PAR_Y was already matched so the original Ensembl ID ENSG00000002586.20_PAR_Y will be kept
+Warning, gene name ENSG00000237801.6_PAR_Y was already matched so the original Ensembl ID ENSG00000237801.6_PAR_Y will be kept
+Warning, gene name ENSG00000124333.16_PAR_Y was already matched so the original Ensembl ID ENSG00000124333.16_PAR_Y will be kept
+Warning, gene name ENSG00000182484.15_PAR_Y was already matched so the original Ensembl ID ENSG00000182484.15_PAR_Y will be kept
