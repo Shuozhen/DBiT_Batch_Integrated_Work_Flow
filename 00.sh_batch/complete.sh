@@ -31,6 +31,6 @@ fi
 sh /gpfs/ysm/project/fan/sb2723/00.sh/batch/4-ConvertToNames.sh $SAMPLEID $INDIR
 
 # Flip and Align using position info
-#sh /gpfs/ysm/project/fan/sb2723/00.sh/batch/5-FlipAlign.sh $SAMPLEID $INDIR/03.stpipeline/
+sh /gpfs/ysm/project/fan/sb2723/00.sh/batch/5-FlipAlign.sh $SAMPLEID $INDIR/03.stpipeline/
 # initial SVG for alignment
-#sh /gpfs/ysm/project/fan/sb2723/00.sh/batch/6-SVG.sh $SAMPLEID $INDIR/03.stpipeline/
+sh /gpfs/ysm/project/fan/sb2723/00.sh/batch/6-SVG.sh $SAMPLEID $INDIR/03.stpipeline/
