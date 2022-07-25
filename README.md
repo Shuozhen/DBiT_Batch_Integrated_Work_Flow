@@ -1,5 +1,6 @@
 # DBiT_Batch_Integrated_Work_Flow
 Integrated work flow for DBiT batch processing, also available for individual test given correct parameters.
+**High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue** https://doi.org/10.1016/j.cell.2020.10.026
 
 ## Set the environment for ST-Pipeline and future R
 Refer to the DBiT notes https://github.com/Shuozhen/DBiT-Notes written before.
