@@ -23,5 +23,5 @@ rm -f run.sh
 # for test
 #for i in GBM220415 GBM220418A;do echo sh 5-FlipAlign.sh $i $INDIR/03.stpipeline;done>>run.sh
 
-for i in `ls $INDIR/01.rawdata/`;do echo sh complete.sh $i $INDIR $SPECIES;done>>run.sh
+for i in `ls $INDIR/01.rawdata/`;do echo sh $DEDIR/00.sh_batch/complete.sh $i $INDIR $SPECIES;done>>run.sh
 dSQ --job-file run.sh --mail-type=ALL --partition=general --cpus-per-task=16 --mem-per-cpu=4g --submit
