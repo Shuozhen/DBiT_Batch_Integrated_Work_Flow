@@ -23,8 +23,10 @@ Refer to the DBiT notes https://github.com/Shuozhen/DBiT-Notes written before.
 4. The file _SampleID_stdata.updated(.flipped.aligned).tsv_ could be further processed using R or Python for Seurat or Scanpy or other advanced processing, optional processing in the brackets
    
 ## To run the steps individually
-Just change the sample ID and give the project directory for input parameters regarding each script, take _4-ConvertToNames.sh_ as an example
+Just change the sample ID and give the project directory for input parameters regarding each script, take _4-ConvertToNames.sh_ as an example. Don't forget to activate the conda environment!!!
 ```
+module load miniconda
+conda activate st-pipeline
 #SampleID=$1 INDIR=$2
 sbatch /yourworkingdirectory/00.sh_batch/4-ConvertToNames.sh GBM1 /gpfs/ysm/project/fan/sb2723/06.GBM
 ```
